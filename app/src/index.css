@@ -3,7 +3,10 @@ body {
   display: flex;
   font-family: 'Muli', sans-serif;
 }
-
+.container {
+  display: flex;
+  justify-content: center;
+}
 .contract, .existing-contracts {
   margin: 20px;
   display: inline-block;
@@ -32,7 +35,7 @@ input[type="text"] {
 }
 
 .button {
-  background-color: #f58427;
+  background-color: greenyellow;
   color: white;
   text-align: center;
   font-weight: bold;

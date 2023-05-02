@@ -55,6 +55,8 @@ function App() {
 
   return (
     <>
+    <div className='container'>
+      <h3>Decentralized Escrow Application</h3>
       <div className="contract">
         <h1> New Contract </h1>
         <label>
@@ -93,6 +95,7 @@ function App() {
             return <Escrow key={escrow.address} {...escrow} />;
           })}
         </div>
+      </div>
       </div>
     </>
   );
